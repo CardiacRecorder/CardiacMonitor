@@ -16,9 +16,8 @@
             android:theme="@style/Theme.CardiacMonitor"
             />
         <activity
-            android:name=".HomeActivity"
-            android:label="Home"
-            android:theme="@style/Theme.CardiacMonitor"
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.CardiacMonitor1"
             android:exported="true"
             >
             <intent-filter>
@@ -26,6 +25,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home"
+            android:theme="@style/Theme.CardiacMonitor"
+            android:exported="true"
+            >
         </activity>
 
         <meta-data
