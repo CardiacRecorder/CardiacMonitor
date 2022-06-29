@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity"
     android:background="#DC4F4F"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
     >
 
 

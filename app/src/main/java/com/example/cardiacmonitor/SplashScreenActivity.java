@@ -1,9 +1,9 @@
 package com.example.cardiacmonitor;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -17,8 +17,8 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashScreenActivity.this, HomeActivity.class));
-                finish();
+//                startActivity(new Intent(SplashScreenActivity.this, HomeActivity.class));
+//                finish();
             }
         },3000);
     }
