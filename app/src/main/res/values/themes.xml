@@ -7,4 +7,11 @@
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.CardiacMonitor1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#35A0F4</item>
+        <item name="colorPrimaryDark">#DC4F4F</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
 </resources>
